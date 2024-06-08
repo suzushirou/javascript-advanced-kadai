@@ -120,7 +120,7 @@ const timer = ()=> {
       timeUp.textContent = 'タイムアップ！';
       setTimeout(()=> {
         gameOver(id);
-      }, 500);
+      }, 10);
     }
   //1000mm秒でカウントする
   }, 1000);
